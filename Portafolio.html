@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andres Ruiz | Portafolio</title>
+</head>
+
+<body>
+    <header>
+        <img class="circle" src="assets/img/logos/large.png">
+        <h1>Andres Fernando Ruiz Giraldo</h1>
+        <!-- hr dibuja una linea separadora -->
+        <hr />
+        <h2>Mechanical Engineer</h2>
+        <video autoplay loop muted>
+            <source src="assets/video/hero.mp4" />
+        </video>
+    </header>
+    <nav id="navbar" class="open">
+        <div>
+            <a href="/">
+                <img class="circle" src="assets/img/logos/small.png">
+                <span>Andres Fernando Ruiz Giraldo <small>Mechanical Engineer </small></span>
+            </a>
+            <button id="hamburger">☰</button>
+        </div>
+        <!-- el numeral # es links para dirigirse en la misma pagina y no a otras externas -->
+        <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skillset">Skillset</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="portfolio">
+            <h3>Portfolio</h3>
+            <hr />
+            <div>
+                <button>
+                    <img src="assets/img/portfolio/1.png">
+                    <h4>Fleet Management System</h4>
+                </button>
+                <button>
+                    <img src="assets/img/portfolio/2.png">
+                    <h4>Nintendo Disney Art Academy</h4>
+                </button>
+                <button>
+                    <img src="assets/img/portfolio/3.png">
+                    <h4>Fridge Binge Games</h4>
+                </button>
+            </div>
+        </section>
+        <!-- class even, el even significa "par" -->
+        <section id="skillset" class="even">
+            <h3>Skillset</h3>
+            <hr />
+            <div>
+                <div>
+                    <img src="assets/img/skillset/html.svg">
+                    <span class="tooltip">HTML</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/css.svg">
+                    <span class="tooltip">CSS</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/js.svg" />
+                    <span class="tooltip">JavaScript</span>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <h3>Experience</h3>
+            <hr />
+            <div>
+                <a>
+                    <img src="assets/img/experience/1.svg">
+                    <h4>Nintendo @Enter the Studio</h4>
+                </a>
+                <a>
+                    <img src="assets/img/experience/2.svg">
+                    <h4>Google Maps @ Randstad</h4>
+                </a>
+            </div>
+        </section>
+        <section id="contact" class="even">
+            <h3>Contact</h3>
+            <hr />
+            <form action="https://formspree.io/f/mbjqgnvj" method="post">
+                <label>
+                    Your email:
+                    <input type="email" name="_replyto">
+                </label>
+                <label>
+                    Yor messsage:
+                    <textarea name="message"></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+            <nav id="social-media">
+                <a href="https://www.linkedin.com/in/andres-fernando-ruiz-giraldo">
+                    <img id="linkedin" src="assets/img/social/linkedin.png">
+                </a>
+            </nav>
+        </section>
+    </main>
+    <footer>
+        <small>Developed and designed by Andres Fernando Ruiz Giraldo ©2025. All rights reserved.</small>
+    </footer>
+</body>
+
+</html>
